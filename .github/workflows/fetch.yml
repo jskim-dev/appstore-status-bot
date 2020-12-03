@@ -2,8 +2,8 @@ name: Fetch Appstore Info
 
 on:
  schedule:
-     - cron: 0 2,12 * * 1-5
-
+     - cron: "0/10 * * * *"
+       
 jobs:
   build:
     runs-on: ubuntu-latest
